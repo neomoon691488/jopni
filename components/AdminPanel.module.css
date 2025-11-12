@@ -1,0 +1,273 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.panel {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(228, 230, 235, 0.5);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1e21;
+  margin-bottom: 24px;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  border-bottom: 2px solid #e4e6eb;
+  margin-bottom: 24px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #65676b;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  color: #1877f2;
+  background: #f0f2f5;
+}
+
+.activeTab {
+  color: #1877f2;
+  border-bottom-color: #1877f2;
+}
+
+.content {
+  min-height: 400px;
+}
+
+.section {
+  animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin-bottom: 16px;
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.userCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #e4e6eb;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background: #fafbfc;
+}
+
+.userCard:hover {
+  border-color: #1877f2;
+  box-shadow: 0 4px 12px rgba(24, 119, 242, 0.15);
+  transform: translateY(-2px);
+  background: white;
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.userHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.userName {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1e21;
+}
+
+.userEmail {
+  color: #65676b;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.userGrade {
+  color: #65676b;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.userDate {
+  color: #8a8d91;
+  font-size: 13px;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badgePending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.badgeApproved {
+  background: #d4edda;
+  color: #155724;
+}
+
+.badgeRejected {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.adminBadge {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #1877f2;
+  color: white;
+}
+
+.userActions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.approveButton {
+  background: #42b72a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.approveButton:hover {
+  background: #36a420;
+}
+
+.rejectButton {
+  background: #e4e6eb;
+  color: #1c1e21;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.rejectButton:hover {
+  background: #d8dadf;
+}
+
+.editButton {
+  background: #1877f2;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.editButton:hover {
+  background: #166fe5;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.editInput {
+  padding: 8px 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.editInput:focus {
+  border-color: #1877f2;
+  outline: none;
+}
+
+.editActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.saveButton {
+  background: #42b72a;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.saveButton:hover {
+  background: #36a420;
+}
+
+.cancelButton {
+  background: #e4e6eb;
+  color: #1c1e21;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cancelButton:hover {
+  background: #d8dadf;
+}
+
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #65676b;
+  font-size: 16px;
+}
+

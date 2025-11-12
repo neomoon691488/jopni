@@ -1,0 +1,146 @@
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(228, 230, 235, 0.5);
+}
+
+.editButton {
+  background: #1877f2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.editButton:hover {
+  background: #166fe5;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #1c1e21;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.input {
+  padding: 10px 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.input:focus {
+  border-color: #1877f2;
+  outline: none;
+}
+
+.textarea {
+  padding: 10px 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 8px;
+  font-size: 15px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.textarea:focus {
+  border-color: #1877f2;
+  outline: none;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.cancelButton {
+  background: #e4e6eb;
+  color: #1c1e21;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.cancelButton:hover:not(:disabled) {
+  background: #d8dadf;
+}
+
+.saveButton {
+  background: #1877f2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.saveButton:hover:not(:disabled) {
+  background: #166fe5;
+}
+
+.saveButton:disabled,
+.cancelButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.fileInput {
+  display: none;
+}
+
+.fileInputLabel {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #f0f2f5;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c1e21;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 8px;
+}
+
+.fileInputLabel:hover {
+  background: #e4e6eb;
+}
+
+.avatarPreview {
+  margin-bottom: 12px;
+}
+
+.avatarImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e4e6eb;
+}
+

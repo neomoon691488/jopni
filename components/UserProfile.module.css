@@ -1,0 +1,169 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.header {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(228, 230, 235, 0.5);
+}
+
+.avatarSection {
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarPlaceholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #1877f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.info {
+  margin-top: 16px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1e21;
+  margin-bottom: 8px;
+}
+
+.grade {
+  color: #65676b;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.bio {
+  color: #1c1e21;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1c1e21;
+}
+
+.statLabel {
+  font-size: 14px;
+  color: #65676b;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.addButton,
+.acceptButton,
+.messageButton {
+  background: #1877f2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: none;
+}
+
+.addButton:hover:not(:disabled),
+.acceptButton:hover:not(:disabled),
+.messageButton:hover:not(:disabled) {
+  background: #166fe5;
+}
+
+.addButton:disabled,
+.acceptButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.friendBadge,
+.pendingBadge {
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.friendBadge {
+  background: #d4edda;
+  color: #155724;
+}
+
+.pendingBadge {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.postsSection {
+  margin-top: 24px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin-bottom: 16px;
+}
+
+.posts {
+  margin-top: 16px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: #65676b;
+  background: white;
+  border-radius: 12px;
+}
+
+.empty p {
+  font-size: 16px;
+}
+

@@ -1,0 +1,27 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.feed {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #65676b;
+  background: white;
+  border-radius: 12px;
+}
+
+.empty p {
+  font-size: 16px;
+}
+

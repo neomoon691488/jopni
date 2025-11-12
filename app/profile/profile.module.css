@@ -1,0 +1,95 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.header {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(228, 230, 235, 0.5);
+}
+
+.avatarSection {
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarPlaceholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #1877f2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.info {
+  margin-top: 16px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1c1e21;
+  margin-bottom: 8px;
+}
+
+.grade {
+  color: #65676b;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.bio {
+  color: #1c1e21;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
+.postsSection {
+  margin-top: 24px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1c1e21;
+  margin-bottom: 16px;
+}
+
+.posts {
+  margin-top: 16px;
+}
+
+.empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: #65676b;
+  background: white;
+  border-radius: 12px;
+}
+
+.empty p {
+  font-size: 16px;
+}
+
