@@ -14,6 +14,7 @@ interface Comment {
 
 interface Post {
   id: string
+  authorId: string
   authorName: string
   authorAvatar?: string
   content: string
